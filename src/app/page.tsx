@@ -5,7 +5,7 @@ import Footer from '../components/atoms/Footer/index';
 
 export default function Home() {
   return (
-    <div className='min-h-screen flex flex-col gap-5'>
+    <div className='min-h-screen flex flex-col gap-5 bg-background'>
       {/* Contenido fijo arriba */}
       <div className="flex flex-col items-center bg-background w-full px-10 lg:px-55 pt-10 gap-4">
         <Header />
